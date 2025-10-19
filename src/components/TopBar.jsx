@@ -4,11 +4,11 @@ export default function TopBar() {
   return (
     <header className="site-header">
       <div className="container nav-wrap">
-        <Link to="/" className="brand">
+        <Link to="/dashboard" className="brand">
           E-Hospital
         </Link>
         <nav>
-          <Link className="button" to="/login">
+          <Link className="button" to="/">
             Log out
           </Link>
         </nav>
